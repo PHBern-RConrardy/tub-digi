@@ -1,1 +1,36 @@
 /* Kursbezogene Ergänzungen zur PHBern-Erweiterung. */
+
+/* Bewusst nur für diesen Kurs: zentrale Einblend-Statements sollen einzeilig
+   und aus grösserer Distanz gut lesbar bleiben. */
+.reveal .slides section .center-quote {
+  width: max-content;
+  max-width: calc(100% - 80px);
+  padding: 46px 68px;
+  font-size: 1.8em;
+  white-space: nowrap;
+}
+
+/* Die beiden Leitbild-Abbildungen erhalten dieselbe Bildfläche, damit ihre
+   Beschriftungen trotz verschiedener Seitenverhältnisse auf einer Höhe liegen. */
+.reveal .leitbild-figures .quarto-float-fig {
+  display: flex;
+  flex-direction: column;
+  height: 560px;
+}
+
+.reveal .leitbild-figures .quarto-float-fig > div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.reveal .leitbild-figures .quarto-float-fig img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;
+}
+
+.reveal .leitbild-figures figcaption {
+  margin-top: auto;
+}

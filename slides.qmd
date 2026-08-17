@@ -1,24 +1,31 @@
 ---
 title: "Digitalität"
 subtitle: "Transversaler Unterrichtsbereich"
-format: phbern-revealjs
+format:
+  phbern-revealjs:
+    css: styles.css
+bibliography:
+  - _extensions/PHBern-RConrardy/phbern/library.bib
+  - library.bib
 ---
-## Lehrplan
+## 
 
-:::: {.columns}
-::: {.column width="50%"}
 
-![@doebelihonegger2017 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de)](resources_free/abbildung-2-1-reaktionen-der-schule-auf-den-leitmedienwechsel-violett.png){#fig-reaktionen-schule-leitmedienwechsel width=100% fig-alt="Mögliche Reaktionen der Schule auf den digitalen Leitmedienwechsel: von Ignorieren über Integration in alle Fächer bis zur Revolutionierung."}
 
-:::
-::: {.column width="50%"}
+![Digitalisierung, Digitalität & Co. , @doebelihonegger2020, angepasste Farben](resources_free/digitalisierung-digitalitaet-violett-schwarz.png){#fig-digitalisierung-digitalitaet width=100% fig-alt="Diagramm: Die Bedeutung des Digitalen nimmt über die Zeit zu. Digitalisierung ist ein wiederkehrender Prozess gesellschaftlicher Kräfte; Digitalität bezeichnet den entstehenden Zustand."}
 
-![](resources_free/digitalisierung-digitalitaet-violett-schwarz.png){#fig-digitalisierung-digitalitaet width=100% fig-alt="Diagramm: Die Bedeutung des Digitalen nimmt über die Zeit zu. Digitalisierung ist ein wiederkehrender Prozess gesellschaftlicher Kräfte; Digitalität bezeichnet den entstehenden Zustand."}
+##
 
-:::
-::::
 
+![Mögliche Reaktionen der Schule auf den digitalen Leitmedienwechsel, @doebelihonegger2017 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de)](resources_free/abbildung-2-1-reaktionen-der-schule-auf-den-leitmedienwechsel-violett.png){#fig-reaktionen-schule-leitmedienwechsel width=100% fig-alt="Mögliche Reaktionen der Schule auf den digitalen Leitmedienwechsel: von Ignorieren über Integration in alle Fächer bis zur Revolutionierung."}
+
+
+
+::: {.notes}
 @edk2024
+
+:::
+
 
 
 ## Mit Daten und Informationen umgehen
@@ -41,7 +48,7 @@ Entscheidend ist zudem die Fähigkeit, sich kritisch mit Daten, Informationen un
 - **Biologie:** Nach einem Versuch zur Pulsfrequenz dokumentieren die Lernenden Messwerte, bestimmen Ausreisser und beurteilen, welche Aussage die kleine Stichprobe zulässt.
 :::
 
-## Verfahren der Automatisierung verstehen und anwenden {.smaller}
+## Verfahren der Automatisierung verstehen und anwenden
 
 ![](soco-st/493157_stamp-stamping-robot.svg){width=42% fig-alt="Stilisierte Darstellung eines Roboters, der einen Stempelvorgang ausführt."}
 
@@ -130,11 +137,12 @@ Das ist mit neuen Aufgaben verbunden, die kommunikativ bewältigt werden müssen
 - **Geschichte:** Teams erstellen eine digitale Zeitleiste; sie teilen Rechercheaufträge auf, diskutieren widersprüchliche Quellen im Kommentarbereich und dokumentieren ihre Entscheidungen.
 :::
 
-## Informationsgesellschaft verstehen {.smaller}
+## Informationsgesellschaft verstehen
 
+![](soco-st/493571_remote-telework-illustration.svg){width=42% fig-alt="Stilisierte Darstellung mehrerer Personen, die digital zusammenarbeiten."}
 
 ::: {.fragment .center-quote data-fragment-index="1"}
-nachhaltige Entwicklung · Datensicherheit
+Nachhaltige Entwicklung · Datensicherheit
 :::
 
 ::: {.notes}

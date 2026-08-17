@@ -1,66 +1,24 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "TUB – Digitalität",
+    "objectID": "resources_free/LICENSES.html",
+    "href": "resources_free/LICENSES.html",
+    "title": "Bildnachweise",
     "section": "",
-    "text": "Dieses Kursangebot entsteht an der PHBern."
+    "text": "Bildnachweise\n\nabbildung-2-1-reaktionen-der-schule-auf-den-leitmedienwechsel.png — Beat Döbeli Honegger (2017), Mehr als 0 und 1 – Schule in einer digitalisierten Welt, hep verlag — CC BY-SA 4.0 · Quelle\nabbildung-2-1-reaktionen-der-schule-auf-den-leitmedienwechsel-violett.png — Bearbeitung der vorstehenden Grafik: Farbgebung angepasst, obere und untere Balken entfernt — Beat Döbeli Honegger (2017), Mehr als 0 und 1 – Schule in einer digitalisierten Welt, hep verlag — CC BY-SA 4.0 · Quelle"
   },
   {
-    "objectID": "index.html#unterlagen",
-    "href": "index.html#unterlagen",
-    "title": "TUB – Digitalität",
-    "section": "Unterlagen",
-    "text": "Unterlagen\n\nSlideshow: Digitalität"
-  },
-  {
-    "objectID": "slides.html#ankommen",
-    "href": "slides.html#ankommen",
-    "title": "TUB – Digitalität",
-    "section": "Ankommen",
-    "text": "Ankommen\nWas prägt Ihren digitalen Alltag heute?\n\n\n\nKommunikation\nInformation\nOrganisation\n\n\n\nLernen\nArbeit\nUnterhaltung\n\n\n\nEinstieg: Die Teilnehmenden sammeln Beispiele aus ihrem Alltag. Noch keine Bewertung vornehmen; es geht zunächst um Sichtbarkeit und Vielfalt digitaler Praktiken."
-  },
-  {
-    "objectID": "slides.html#was-meinen-wir-mit-digitalität",
-    "href": "slides.html#was-meinen-wir-mit-digitalität",
-    "title": "TUB – Digitalität",
-    "section": "Was meinen wir mit Digitalität?",
-    "text": "Was meinen wir mit Digitalität?\nDigitalität beschreibt nicht nur technische Geräte. Sie prägt, wie wir kommunizieren, Wissen erzeugen, Entscheidungen treffen und zusammenleben."
-  },
-  {
-    "objectID": "slides.html#drei-perspektiven",
-    "href": "slides.html#drei-perspektiven",
-    "title": "TUB – Digitalität",
-    "section": "Drei Perspektiven",
-    "text": "Drei Perspektiven\n\n\nTechnik\nWelche Systeme und Daten sind beteiligt?\n\nGesellschaft\nWer gestaltet Regeln, Zugänge und Sichtbarkeit?\n\nBildung\nWelche Kompetenzen brauchen Lernende und Lehrpersonen?"
-  },
-  {
-    "objectID": "slides.html#austausch",
-    "href": "slides.html#austausch",
-    "title": "TUB – Digitalität",
-    "section": "Austausch",
-    "text": "Austausch\nTauschen Sie sich zu zweit aus:\n\nWählen Sie eine digitale Alltagssituation.\nBeschreiben Sie, was sie erleichtert.\nBenennen Sie eine offene Frage oder Herausforderung.\n\n\nEtwa zehn Minuten Austausch, anschliessend kurze Sammlung im Plenum. Die Ergebnisse können als Ausgangspunkt für die folgenden Sitzungen dienen."
-  },
-  {
-    "objectID": "slides.html#ausblick",
-    "href": "slides.html#ausblick",
-    "title": "TUB – Digitalität",
-    "section": "Ausblick",
-    "text": "Ausblick\nIm Kurs untersuchen wir Digitalität als Zusammenspiel von Technologie, Gesellschaft und Bildung."
-  },
-  {
-    "objectID": "slides.html#rechtliches",
-    "href": "slides.html#rechtliches",
+    "objectID": "slides.html#section",
+    "href": "slides.html#section",
     "title": "Digitalität",
-    "section": "Rechtliches",
-    "text": "Rechtliches\n\n\n\n\nUrheberrecht\n\nBilder wie das links: CC BY Soco St via SVG Repo\nEigene Slides unter CC BY-SA 4.0"
+    "section": "",
+    "text": "Abbildung 1: Digitalisierung, Digitalität & Co. , Döbeli Honegger (2020), angepasste Farben"
   },
   {
-    "objectID": "slides.html#references",
-    "href": "slides.html#references",
+    "objectID": "slides.html#section-1",
+    "href": "slides.html#section-1",
     "title": "Digitalität",
-    "section": "Literatur",
-    "text": "Literatur\n\n\nDöbeli Honegger, Beat. 2017. Mehr als 0 und 1: Schule in einer digitalisierten Welt. 2., durchgesehene Auflage. Hep verlag.\n\n\nEDK. 2024. Rahmenlehrplan Gymnasiale Maturitätsschulen. Bern. https://edudoc.ch/record/232281/files/Rahmenlehrplan-maturitatsschulen.pdf."
+    "section": "",
+    "text": "Abbildung 2: Mögliche Reaktionen der Schule auf den digitalen Leitmedienwechsel, Döbeli Honegger (2017) CC BY-SA 4.0\n\nEDK (2024)"
   },
   {
     "objectID": "slides.html#mit-daten-und-informationen-umgehen",
@@ -74,7 +32,7 @@
     "href": "slides.html#verfahren-der-automatisierung-verstehen-und-anwenden",
     "title": "Digitalität",
     "section": "Verfahren der Automatisierung verstehen und anwenden",
-    "text": "Verfahren der Automatisierung verstehen und anwenden\n\n\nDie Verfügbarkeit von Informationen in digitaler Form begünstigt die Automatisierung von Prozessen, sei es durch den Einsatz herkömmlicher Programme oder durch Verfahren der Künstlichen Intelligenz.\nDamit sind drei Arbeitsbereiche verbunden:\n\nPassende Werkzeuge in praktischen Kontexten kompetent einschätzen und einsetzen.\nAuswirkungen erkennen, kritisch prüfen und in einem ethischen Kontext reflektieren.\nAufgaben und Herausforderungen mithilfe algorithmischer Verfahren strukturieren, bearbeiten und lösen.\n\nAutomatisierung und Künstliche Intelligenz eröffnen neue Möglichkeiten und Handlungsfelder. Das betrifft auch die kreative Gestaltung von Lernprodukten.\nKonkrete Beispiele aus einzelnen Fächern:\n\nInformatik: Lernende programmieren einen Entscheidungsbaum für die Ausleihe von Sportmaterial und testen, ob Sonderfälle korrekt behandelt werden.\nMathematik: Bei einer Tabellenkalkulation zu Zinseszins identifizieren die Lernenden, welche Rechenschritte automatisiert sind, und überprüfen ein Ergebnis mit einer Gegenrechnung.\nFranzösisch: Eine KI erstellt einen ersten Dialogentwurf; die Lernenden markieren falsche oder unpassende Formulierungen und verbessern den Text anhand der gelernten Sprachmittel."
+    "text": "Verfahren der Automatisierung verstehen und anwenden\n\n\nStrukturieren · Lösen · Reflektieren\n\n\nDie Verfügbarkeit von Informationen in digitaler Form begünstigt die Automatisierung von Prozessen, sei es durch den Einsatz herkömmlicher Programme oder durch Verfahren der Künstlichen Intelligenz.\nDamit sind drei Arbeitsbereiche verbunden:\n\nPassende Werkzeuge in praktischen Kontexten kompetent einschätzen und einsetzen.\nAuswirkungen erkennen, kritisch prüfen und in einem ethischen Kontext reflektieren.\nAufgaben und Herausforderungen mithilfe algorithmischer Verfahren strukturieren, bearbeiten und lösen.\n\nAutomatisierung und Künstliche Intelligenz eröffnen neue Möglichkeiten und Handlungsfelder. Das betrifft auch die kreative Gestaltung von Lernprodukten.\nKonkrete Beispiele aus einzelnen Fächern:\n\nInformatik: Lernende programmieren einen Entscheidungsbaum für die Ausleihe von Sportmaterial und testen, ob Sonderfälle korrekt behandelt werden.\nMathematik: Bei einer Tabellenkalkulation zu Zinseszins identifizieren die Lernenden, welche Rechenschritte automatisiert sind, und überprüfen ein Ergebnis mit einer Gegenrechnung.\nFranzösisch: Eine KI erstellt einen ersten Dialogentwurf; die Lernenden markieren falsche oder unpassende Formulierungen und verbessern den Text anhand der gelernten Sprachmittel."
   },
   {
     "objectID": "slides.html#mit-modellen-komplexe-sachverhalte-analysieren",
@@ -102,13 +60,34 @@
     "href": "slides.html#informationsgesellschaft-verstehen",
     "title": "Digitalität",
     "section": "Informationsgesellschaft verstehen",
-    "text": "Informationsgesellschaft verstehen\n\nnachhaltige Entwicklung · Datensicherheit\n\n\nDigitalität beeinflusst ökonomische, soziale und politische Zusammenhänge und wird umgekehrt von diesen geprägt. Damit verbundene Entwicklungen erfolgen in kurzer Zeit und schaffen neue Voraussetzungen für menschliches Handeln.\nDeshalb ist es bedeutsam, entsprechende Dynamiken zu reflektieren, Risiken zu erkennen und sich verantwortungsbewusst zu ihnen zu verhalten. Rahmenbedingungen nachhaltiger Entwicklung sowie Aspekte der Datensicherheit verdienen dabei besondere Beachtung.\nKonkrete Beispiele aus einzelnen Fächern:\n\nGeografie: Lernende untersuchen die Arbeit einer Lieferplattform in einer Stadt und ordnen Folgen für Arbeitsbedingungen, Verkehr und lokale Geschäfte ein.\nGeschichte: Die Klasse vergleicht die Einführung des Buchdrucks mit sozialen Netzwerken und diskutiert, welche Akteure damals und heute Öffentlichkeit prägen.\nWAH: Lernende recherchieren den Ressourcenverbrauch von Streaming und entwickeln Kriterien für eine nachhaltigere Mediennutzung im Alltag."
+    "text": "Informationsgesellschaft verstehen\n\n\nNachhaltige Entwicklung · Datensicherheit\n\n\nDigitalität beeinflusst ökonomische, soziale und politische Zusammenhänge und wird umgekehrt von diesen geprägt. Damit verbundene Entwicklungen erfolgen in kurzer Zeit und schaffen neue Voraussetzungen für menschliches Handeln.\nDeshalb ist es bedeutsam, entsprechende Dynamiken zu reflektieren, Risiken zu erkennen und sich verantwortungsbewusst zu ihnen zu verhalten. Rahmenbedingungen nachhaltiger Entwicklung sowie Aspekte der Datensicherheit verdienen dabei besondere Beachtung.\nKonkrete Beispiele aus einzelnen Fächern:\n\nGeografie: Lernende untersuchen die Arbeit einer Lieferplattform in einer Stadt und ordnen Folgen für Arbeitsbedingungen, Verkehr und lokale Geschäfte ein.\nGeschichte: Die Klasse vergleicht die Einführung des Buchdrucks mit sozialen Netzwerken und diskutiert, welche Akteure damals und heute Öffentlichkeit prägen.\nWAH: Lernende recherchieren den Ressourcenverbrauch von Streaming und entwickeln Kriterien für eine nachhaltigere Mediennutzung im Alltag."
   },
   {
-    "objectID": "slides.html#lehrplan",
-    "href": "slides.html#lehrplan",
+    "objectID": "slides.html#rechtliches",
+    "href": "slides.html#rechtliches",
     "title": "Digitalität",
-    "section": "Lehrplan",
-    "text": "Lehrplan\n\n\n\n\n\n\n\n\nAbbildung 1: Döbeli Honegger (2017) CC BY-SA 4.0\n\n\n\n\n\n\n\n\n\n\nAbbildung 2\n\n\n\n\nEDK (2024)"
+    "section": "Rechtliches",
+    "text": "Rechtliches\n\n\n\n\nUrheberrecht\n\nBilder wie das links: CC BY Soco St via SVG Repo\nEigene Slides unter CC BY-SA 4.0"
+  },
+  {
+    "objectID": "slides.html#references",
+    "href": "slides.html#references",
+    "title": "Digitalität",
+    "section": "Literatur",
+    "text": "Literatur\n\n\nDöbeli Honegger, Beat. 2017. Mehr als 0 und 1: Schule in einer digitalisierten Welt. 2., durchgesehene Auflage. Hep verlag.\n\n\nDöbeli Honegger, Beat. 2020. «Digitalisierung, Digitalität & Co.» September 18. https://blog.doebe.li/Blog/DigitalisierungDigitalitaetUndCo.\n\n\nEDK. 2024. Rahmenlehrplan Gymnasiale Maturitätsschulen. Bern. https://edudoc.ch/record/232281/files/Rahmenlehrplan-maturitatsschulen.pdf."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "TUB – Digitalität",
+    "section": "",
+    "text": "Dieses Kursangebot entsteht an der PHBern."
+  },
+  {
+    "objectID": "index.html#unterlagen",
+    "href": "index.html#unterlagen",
+    "title": "TUB – Digitalität",
+    "section": "Unterlagen",
+    "text": "Unterlagen\n\nSlideshow: Digitalität"
   }
 ]
