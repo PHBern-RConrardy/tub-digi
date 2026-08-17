@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+$phbern-bordeaux: #ad0101 !default;
+$phbern-bordeaux-hover: #780101 !default;
+@import "phbern-colors";
+
+$font-family-sans-serif: Arial, Helvetica, "Liberation Sans", sans-serif !default;
+$headings-font-family: Arial, Helvetica, "Liberation Sans", sans-serif !default;
+$body-color: #1a1a1a !default;
+$link-color: $phbern-bordeaux !default;
+$code-color: $phbern-bordeaux !default;
+$navbar-bg: white !default;
+$navbar-fg: #1a1a1a !default;
+$navbar-hl: $phbern-bordeaux !default;
+
+/*-- scss:rules --*/
+body {
+  font-family: Arial, Helvetica, "Liberation Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, "Liberation Sans", sans-serif;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+a { color: $phbern-bordeaux; }
+a:hover { color: $phbern-bordeaux-hover; }
+
+.quarto-title-block .title {
+  text-transform: none;
+  border-bottom: 3px solid $phbern-bordeaux;
+  display: inline-block;
+  padding-bottom: .08em;
+}
+
+.callout {
+  border-left-color: $phbern-bordeaux;
+}

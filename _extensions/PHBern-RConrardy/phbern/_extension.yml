@@ -1,0 +1,74 @@
+title: PHBern Quarto Formats
+author: Richard Conrardy / PHBern
+version: 0.2.0
+quarto-required: ">=1.4.11"
+csl: assets/apa.csl
+contributes:
+  formats:
+    common:
+      lang: de-CH
+      author: Richard Conrardy
+      institut: Sekundarstufe II
+      bibliography: library.bib
+    html:
+      theme:
+        - cosmo
+        - styles/phbern-html.scss
+      toc: true
+      toc-title: Inhalt
+      number-sections: false
+    revealjs:
+      theme:
+        - default
+        - styles/phbern-revealjs.scss
+      width: 1600
+      height: 900
+      filters:
+        - revealjs-bibliography-slide.lua
+      slide-number: c
+      controls: false
+      progress: false
+      transition: none
+      center: false
+      hash: true
+      menu: false
+      toc-title: Inhalt
+      title-slide-attributes:
+        data-state: title-bg
+        data-background-image: "assets/slide_Image.png"
+        data-background-size: "100% 100%"
+        data-background-position: center
+        data-background-repeat: no-repeat
+      date-format: "DD.MM.YYYY"
+      logo: assets/Log_PHB_black.eps.svg
+      bibliography: library.bib
+      resources:
+        - assets/padlet.svg
+        - assets/soco-st/
+        - assets/logos/
+    typst:
+      citeproc: true
+      papersize: a4
+      fontsize: 10.5pt
+      mainfont: Liberation Sans
+      font-paths: assets/fonts
+      logo: assets/Log_PHB_black.eps.svg
+      toc-title: Inhalt
+      filters:
+        - pdf-link-site-url.lua
+      number-sections: true
+      section-numbering: "1.1"
+      template-partials:
+        - typst/typst-template.typ
+        - typst/typst-show.typ
+        - typst/page.typ
+    docx:
+      filters:
+        - docx-link-site-url.lua
+      reference-doc: reference.docx
+      toc: false
+      number-sections: false
+    pptx:
+      reference-doc: reference.pptx
+      slide-level: 2
+      toc: false

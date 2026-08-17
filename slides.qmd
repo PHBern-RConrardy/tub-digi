@@ -1,0 +1,78 @@
+---
+title: "TUB – Digitalität"
+subtitle: "Auftakt"
+format: phbern-revealjs
+---
+
+# Digitalität
+
+## Ankommen
+
+**Was prägt Ihren digitalen Alltag heute?**
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- Kommunikation
+- Information
+- Organisation
+
+:::
+::: {.column width="50%"}
+
+- Lernen
+- Arbeit
+- Unterhaltung
+
+:::
+::::
+
+::: {.notes}
+Einstieg: Die Teilnehmenden sammeln Beispiele aus ihrem Alltag. Noch keine Bewertung vornehmen; es geht zunächst um Sichtbarkeit und Vielfalt digitaler Praktiken.
+:::
+
+## Was meinen wir mit Digitalität?
+
+Digitalität beschreibt nicht nur technische Geräte. Sie prägt, wie wir kommunizieren, Wissen erzeugen, Entscheidungen treffen und zusammenleben.
+
+## Drei Perspektiven
+
+:::: {.columns}
+::: {.column width="33%"}
+
+### Technik
+
+Welche Systeme und Daten sind beteiligt?
+
+:::
+::: {.column width="33%"}
+
+### Gesellschaft
+
+Wer gestaltet Regeln, Zugänge und Sichtbarkeit?
+
+:::
+::: {.column width="33%"}
+
+### Bildung
+
+Welche Kompetenzen brauchen Lernende und Lehrpersonen?
+
+:::
+::::
+
+## Austausch {.uebung}
+
+Tauschen Sie sich zu zweit aus:
+
+1. Wählen Sie eine digitale Alltagssituation.
+2. Beschreiben Sie, was sie erleichtert.
+3. Benennen Sie eine offene Frage oder Herausforderung.
+
+::: {.notes}
+Etwa zehn Minuten Austausch, anschliessend kurze Sammlung im Plenum. Die Ergebnisse können als Ausgangspunkt für die folgenden Sitzungen dienen.
+:::
+
+## Ausblick
+
+Im Kurs untersuchen wir Digitalität als Zusammenspiel von Technologie, Gesellschaft und Bildung.

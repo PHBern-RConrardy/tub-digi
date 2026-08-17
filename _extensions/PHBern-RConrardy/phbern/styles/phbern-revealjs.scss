@@ -1,0 +1,254 @@
+/*-- scss:defaults --*/
+$phbern-bordeaux: #ad0101 !default;
+$phbern-beige-light: #cdcc99 !default;
+$phbern-blue-mid: #6c94a8 !default;
+@import "phbern-colors";
+
+$font-family-sans-serif: Arial, Helvetica, "Liberation Sans", sans-serif !default;
+$presentation-heading-font: Arial, Helvetica, "Liberation Sans", sans-serif !default;
+$presentation-font-size-root: 44px !default;
+$presentation-heading-color: #000000 !default;
+$presentation-title-slide-text-align: left !default;
+$link-color: $phbern-bordeaux !default;
+
+/*-- scss:rules --*/
+
+
+.reveal .slides section:not(#title-slide):not(:has(h1))::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  right: 3px;
+  bottom: 0;
+  border-top: 2px solid #d6d6d6;
+}
+
+.reveal .slide-number {
+  left: 60px !important;
+  right: auto !important;
+  top: auto !important;
+  bottom: 15px !important;
+  background: transparent !important;
+  font-size: 16px !important;
+  color: #000 !important;
+}
+/* Hide slide number on title slide */
+body:has(#title-slide.present) .reveal .slide-number {
+  display: none !important;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  text-transform: uppercase !important;
+  font-weight: 700;
+  color: #000;
+}
+
+.reveal h2 {
+  margin: 0 0 36px 0;
+  font-size: 1.3em;
+  line-height: 1.08;
+}
+
+.reveal h3 {
+  font-size: 1em;
+  margin: 30px 0 14px 0;
+}
+
+/* Keep PHBern heading sizes when Quarto's .smaller reduces slide content. */
+.reveal .slides section.smaller h1 {
+  font-size: calc(1.5em / 0.7) !important;
+}
+
+.reveal .slides section.smaller h2 {
+  font-size: calc(1.3em / 0.7);
+}
+
+.reveal .slides section.smaller h3 {
+  font-size: calc(1em / 0.7);
+}
+
+.reveal ul {
+  margin-left: 1.1em;
+}
+
+
+
+.reveal strong {
+  font-weight: 700;
+}
+
+.reveal a {
+  color: $phbern-bordeaux;
+}
+
+.reveal .columns {
+  gap: 56px;
+}
+
+
+
+.reveal h1 {
+  font-size: 1.5em !important;
+  text-decoration-line: underline;
+  text-decoration-color: $phbern-bordeaux;
+  text-decoration-thickness: 5px;
+}
+
+
+
+#title-slide p.author,
+#title-slide .author,
+#title-slide .quarto-title-author,
+#title-slide .quarto-title-author-name {
+  left: 88px;
+  top: 528px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700 !important;
+}
+
+/* Quarto renders several authors as adjacent blocks; separate them visibly. */
+#title-slide .quarto-title-author {
+  /* Avoid the whitespace text node Quarto leaves after each name. */
+  font-size: 0;
+}
+
+#title-slide .quarto-title-author-name {
+  font-size: 18px;
+}
+
+#title-slide .quarto-title-author:not(:last-child) .quarto-title-author-name::after {
+  content: ",\00a0";
+}
+
+.reveal section.section-title,
+.reveal .slides section[data-state="section-title"] {
+  display: flex !important;
+  align-items: center;
+}
+
+.reveal section.section-title h1,
+.reveal section.section-title h2 {
+  font-size: 2em;
+  border-bottom: 5px solid $phbern-bordeaux;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+
+
+/* Make sure the title slide itself does not draw a white panel */
+#title-slide,
+#title-slide .quarto-title-block,
+#title-slide .quarto-title,
+#title-slide h1,
+#title-slide p {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+/* Force the first/title-slide background to fill the whole Reveal background layer */
+.reveal .backgrounds .slide-background:first-child .slide-background-content {
+  background-size: cover !important;
+  background-position: center 0% !important;
+  background-repeat: no-repeat !important;
+}
+
+
+
+/* Hide logo on all slides by default */
+.reveal .slide-logo {
+  display: none !important;
+}
+
+/* Show logo only on title slide */
+body:has(#title-slide.present) .reveal .slide-logo {
+  display: block !important;
+  left: auto !important;
+  bottom: auto !important;
+
+  width: 400px !important;
+  max-height: none !important;
+  height: auto !important;
+
+}
+
+$uebung-bg: $phbern-beige-light;
+$science-bg: $phbern-blue-mid;
+
+
+
+/* full Reveal background for .uebung slides */
+body:has(.reveal .slides section.uebung.present),
+body:has(.reveal .slides section.uebung.present) .reveal-viewport,
+body:has(.reveal .slides section.uebung.present) .reveal,
+body:has(.reveal .slides section.uebung.present) .reveal .backgrounds,
+body:has(.reveal .slides section.uebung.present) .reveal .slide-background.present,
+body:has(.reveal .slides section.uebung.present) .reveal .slide-background.present .slide-background-content {
+  background-color: $uebung-bg !important;
+}
+
+/* full Reveal background for .science slides */
+body:has(.reveal .slides section.science.present),
+body:has(.reveal .slides section.science.present) .reveal-viewport,
+body:has(.reveal .slides section.science.present) .reveal,
+body:has(.reveal .slides section.science.present) .reveal .backgrounds,
+body:has(.reveal .slides section.science.present) .reveal .slide-background.present,
+body:has(.reveal .slides section.science.present) .reveal .slide-background.present .slide-background-content {
+  background-color: $science-bg ;
+}
+
+
+.reveal .slides section > img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.reveal .slides section .center-quote {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  max-width: 860px;
+  padding: 38px 48px;
+  background: rgba(238, 238, 238, 0.88);
+  color: #000;
+  font-size: 1.45em;
+  font-weight: 700;
+  line-height: 1.22;
+  text-align: left;
+}
+
+.reveal .slides section .center-quote p {
+  margin: 0;
+}
+
+.reveal .slides section .center-quote a {
+  white-space: nowrap;
+}
+
+.reveal .slides section.padlet .padlet-url,
+.reveal .slides section.paper .paper-link {
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.reveal .slides section.padlet .padlet-url p,
+.reveal .slides section.paper .paper-link p {
+  margin: 0;
+}
+
+.reveal .slides section.padlet .padlet-url a,
+.reveal .slides section.paper .paper-link a {
+  color: #000;
+  text-decoration: none;
+}

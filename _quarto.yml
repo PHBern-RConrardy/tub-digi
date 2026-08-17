@@ -1,0 +1,22 @@
+project:
+  type: website
+  resources:
+    - resources_free/**
+    - resources_non_free/**
+
+website:
+  title: "TUB – Digitalität"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+institut: "Sekundarstufe II"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
