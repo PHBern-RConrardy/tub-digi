@@ -1,6 +1,7 @@
 project:
   type: website
   resources:
+    - _routes.json
     - resources_free/**
     - resources_non_free/**
 
