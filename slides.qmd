@@ -3,16 +3,20 @@ title: "Digitalität"
 subtitle: "Transversaler Unterrichtsbereich"
 format: phbern-revealjs
 ---
+## Lehrplan
+
+@edk2024
+
 
 ## Mit Daten und Informationen umgehen {.smaller}
 
-Daten und Informationen haben in einer Kultur der Digitalität eine zentrale Bedeutung. Während in einer Buchdruckgesellschaft der Zugang zu Informationen das entscheidende Problem darstellte, steht in einer Informationsgesellschaft das Filtern, Verarbeiten, Auswerten und zielgruppengerechte Darstellen von oft sehr grossen Datenmengen im Vordergrund.
+<!-- Daten und Informationen haben in einer Kultur der Digitalität eine zentrale Bedeutung. Während in einer Buchdruckgesellschaft der Zugang zu Informationen das entscheidende Problem darstellte, steht in einer Informationsgesellschaft das Filtern, Verarbeiten, Auswerten und zielgruppengerechte Darstellen von oft sehr grossen Datenmengen im Vordergrund.
 
-Entscheidend ist zudem die Fähigkeit, sich kritisch mit Daten, Informationen und Medieninhalten auseinanderzusetzen. Das betrifft insbesondere ethische Aspekte der Datenerfassung und Datenbearbeitung sowie ein Bewusstsein für die Herkunft und faktische Korrektheit von Informationen.
+Entscheidend ist zudem die Fähigkeit, sich kritisch mit Daten, Informationen und Medieninhalten auseinanderzusetzen. Das betrifft insbesondere ethische Aspekte der Datenerfassung und Datenbearbeitung sowie ein Bewusstsein für die Herkunft und faktische Korrektheit von Informationen. -->
 
 ## Verfahren der Automatisierung verstehen und anwenden {.smaller}
 
-Die Verfügbarkeit von Informationen in digitaler Form begünstigt die Automatisierung von Prozessen, sei es durch den Einsatz herkömmlicher Programme oder durch Verfahren der Künstlichen Intelligenz.
+<!-- Die Verfügbarkeit von Informationen in digitaler Form begünstigt die Automatisierung von Prozessen, sei es durch den Einsatz herkömmlicher Programme oder durch Verfahren der Künstlichen Intelligenz.
 
 Damit sind drei Arbeitsbereiche verbunden:
 
@@ -20,28 +24,28 @@ Damit sind drei Arbeitsbereiche verbunden:
 2. Auswirkungen erkennen, kritisch prüfen und in einem ethischen Kontext reflektieren.
 3. Aufgaben und Herausforderungen mithilfe algorithmischer Verfahren strukturieren, bearbeiten und lösen.
 
-Automatisierung und Künstliche Intelligenz eröffnen neue Möglichkeiten und Handlungsfelder. Das betrifft auch die kreative Gestaltung von Lernprodukten.
+Automatisierung und Künstliche Intelligenz eröffnen neue Möglichkeiten und Handlungsfelder. Das betrifft auch die kreative Gestaltung von Lernprodukten. -->
 
 ## Mit Modellen komplexe Sachverhalte analysieren {.smaller}
 
-Die automatisierte Datenverarbeitung ermöglicht es, auch komplexe Modelle der Realität zu erstellen, interaktiv zu erforschen und dadurch ein vertieftes Verständnis von funktionalen Zusammenhängen zu entwickeln.
+<!-- Die automatisierte Datenverarbeitung ermöglicht es, auch komplexe Modelle der Realität zu erstellen, interaktiv zu erforschen und dadurch ein vertieftes Verständnis von funktionalen Zusammenhängen zu entwickeln.
 
-Damit gewinnt die Arbeit mit Modellen und Formen der Vereinfachung an Bedeutung. Zudem erlauben Simulationen und spielerische Umgebungen neue Formen von Erfahrung, Lernen und Interaktion, die dabei helfen können, die mit komplexen Systemen verbundenen Herausforderungen zu bewältigen.
+Damit gewinnt die Arbeit mit Modellen und Formen der Vereinfachung an Bedeutung. Zudem erlauben Simulationen und spielerische Umgebungen neue Formen von Erfahrung, Lernen und Interaktion, die dabei helfen können, die mit komplexen Systemen verbundenen Herausforderungen zu bewältigen. -->
 
 ## Digitale Identität reflektieren {.smaller}
 
-Die persönliche Entwicklung und Teilhabe an der Gesellschaft sind auch mit der Gestaltung und Pflege medialer Repräsentationen der eigenen Identität verknüpft. Diese ist die Grundlage der Gestaltung von sozialen Beziehungen im digitalen Raum.
+<!-- Die persönliche Entwicklung und Teilhabe an der Gesellschaft sind auch mit der Gestaltung und Pflege medialer Repräsentationen der eigenen Identität verknüpft. Diese ist die Grundlage der Gestaltung von sozialen Beziehungen im digitalen Raum.
 
-Solche Prozesse zu verstehen und Einfluss darauf nehmen zu können ist wichtig, auch weil Datenspuren in digitale Formen der Identitätsbildung einfliessen und Auswirkungen haben in Bezug auf Privatsphäre und das Grundrecht auf informationelle Selbstbestimmung.
+Solche Prozesse zu verstehen und Einfluss darauf nehmen zu können ist wichtig, auch weil Datenspuren in digitale Formen der Identitätsbildung einfliessen und Auswirkungen haben in Bezug auf Privatsphäre und das Grundrecht auf informationelle Selbstbestimmung. -->
 
 ## Kommunikation und Kollaboration gestalten {.smaller}
 
-Der einfache Zugang zu vernetzten Plattformen erlaubt es, Interaktion mit anderen Menschen von zeitlichen und räumlichen Beschränkungen zu lösen. Vermittlungsinstanzen verlieren an Bedeutung: Wer Wissen hat, kann es direkt weitergeben.
+<!-- Der einfache Zugang zu vernetzten Plattformen erlaubt es, Interaktion mit anderen Menschen von zeitlichen und räumlichen Beschränkungen zu lösen. Vermittlungsinstanzen verlieren an Bedeutung: Wer Wissen hat, kann es direkt weitergeben.
 
-Das ist mit neuen Aufgaben verbunden, die kommunikativ bewältigt werden müssen. Gleichzeitig ergeben sich aber auch zusätzliche Möglichkeiten für Wissenserwerb, Zusammenarbeit und Partizipation, die produktiv zu nutzen sind.
+Das ist mit neuen Aufgaben verbunden, die kommunikativ bewältigt werden müssen. Gleichzeitig ergeben sich aber auch zusätzliche Möglichkeiten für Wissenserwerb, Zusammenarbeit und Partizipation, die produktiv zu nutzen sind. -->
 
 ## Informationsgesellschaft verstehen {.smaller}
 
-Digitalität beeinflusst ökonomische, soziale und politische Zusammenhänge und wird umgekehrt von diesen geprägt. Damit verbundene Entwicklungen erfolgen in kurzer Zeit und schaffen neue Voraussetzungen für menschliches Handeln.
+<!-- Digitalität beeinflusst ökonomische, soziale und politische Zusammenhänge und wird umgekehrt von diesen geprägt. Damit verbundene Entwicklungen erfolgen in kurzer Zeit und schaffen neue Voraussetzungen für menschliches Handeln.
 
-Deshalb ist es bedeutsam, entsprechende Dynamiken zu reflektieren, Risiken zu erkennen und sich verantwortungsbewusst zu ihnen zu verhalten. Rahmenbedingungen nachhaltiger Entwicklung sowie Aspekte der Datensicherheit verdienen dabei besondere Beachtung.
+Deshalb ist es bedeutsam, entsprechende Dynamiken zu reflektieren, Risiken zu erkennen und sich verantwortungsbewusst zu ihnen zu verhalten. Rahmenbedingungen nachhaltiger Entwicklung sowie Aspekte der Datensicherheit verdienen dabei besondere Beachtung. -->
