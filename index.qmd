@@ -3,7 +3,6 @@ title: "TUB – Digitalität"
 format: html
 ---
 
-Dieses Kursangebot entsteht an der PHBern.
 
 ## Unterlagen
 

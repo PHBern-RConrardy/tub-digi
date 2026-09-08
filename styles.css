@@ -1,5 +1,40 @@
 /* Kursbezogene Ergänzungen zur PHBern-Erweiterung. */
 
+/* TUB-Test: Alle Folien bleiben eine zentrierte 16:9-Fläche.
+   Der bestehende Bildbeschnitt bleibt innerhalb dieser Fläche erhalten. */
+html body:has(.reveal .slides section.present) {
+  background: #000 !important;
+}
+
+.reveal {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: min(100vw, calc(100vh * 16 / 9));
+  height: min(100vh, calc(100vw * 9 / 16));
+  background: #fff;
+  overflow: hidden;
+  /* Bindet auch Quarto-Elemente mit position: fixed an die Folienfläche. */
+  transform: translateZ(0);
+}
+
+body:has(#title-slide.present) .reveal .slide-logo {
+  position: absolute !important;
+  margin: 0 !important;
+  width: 25% !important;
+  top: 1.333333% !important;
+  right: 0.75% !important;
+}
+
+/* Seitenzahl samt Innenabstand proportional zur 1600 × 900-Folie. */
+.reveal .slide-number {
+  left: 2.75% !important;
+  bottom: 0.75% !important;
+  font-size: min(1vw, calc(1vh * 16 / 9)) !important;
+  padding: min(0.5vw, calc(0.5vh * 16 / 9));
+  line-height: 1;
+}
+
 /* Bewusst nur für diesen Kurs: zentrale Einblend-Statements sollen einzeilig
    und aus grösserer Distanz gut lesbar bleiben. */
 .reveal .slides section .center-quote {
