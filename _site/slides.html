@@ -54,7 +54,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-b95884371213fe43f3a4dbef8a1a5e55.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-8870396b9a254c8aef2053d27e37f02b.css">
   <link rel="stylesheet" href="styles.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -566,6 +566,13 @@ EDK. 2024. <em>Rahmenlehrplan <span>Gymnasiale Maturitätsschulen</span></em>. B
         // viewDistance in order to save resources.
         mobileViewDistance: 2,
 
+        // Enable scroll view
+        view: 'slide',
+        scrollProgress: 'auto',
+        scrollActivationWidth: 0,
+        scrollSnap: 'mandatory',
+        scrollLayout: 'full',
+
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
@@ -575,6 +582,9 @@ EDK. 2024. <em>Rahmenlehrplan <span>Gymnasiale Maturitätsschulen</span></em>. B
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
+
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 5.0e-2,
 
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',

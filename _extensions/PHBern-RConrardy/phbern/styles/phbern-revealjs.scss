@@ -13,6 +13,22 @@ $link-color: $phbern-bordeaux !default;
 
 /*-- scss:rules --*/
 
+/* Keep the complete presentation in a centered 16:9 frame. */
+html body:has(.reveal .slides section.present) {
+  background: #000 !important;
+}
+
+.reveal {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: min(100vw, calc(100vh * 16 / 9));
+  height: min(100vh, calc(100vw * 9 / 16));
+  background: #fff;
+  overflow: hidden;
+  /* Keep fixed-position logos, footers and numbers inside the frame. */
+  transform: translateZ(0);
+}
 
 .reveal .slides section:not(#title-slide):not(:has(h1))::before {
   content: "";
@@ -24,12 +40,14 @@ $link-color: $phbern-bordeaux !default;
 }
 
 .reveal .slide-number {
-  left: 60px !important;
+  left: 2.75% !important;
   right: auto !important;
   top: auto !important;
-  bottom: 15px !important;
+  bottom: 0.75% !important;
   background: transparent !important;
-  font-size: 16px !important;
+  font-size: min(1vw, calc(1vh * 16 / 9)) !important;
+  padding: min(0.5vw, calc(0.5vh * 16 / 9));
+  line-height: 1;
   color: #000 !important;
 }
 /* Hide slide number on title slide */
@@ -168,7 +186,11 @@ body:has(#title-slide.present) .reveal .slide-logo {
   left: auto !important;
   bottom: auto !important;
 
-  width: 400px !important;
+  position: absolute !important;
+  margin: 0 !important;
+  width: 25% !important;
+  top: 1.333333% !important;
+  right: 0.75% !important;
   max-height: none !important;
   height: auto !important;
 

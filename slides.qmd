@@ -4,6 +4,10 @@ subtitle: "Transversaler Unterrichtsbereich"
 format:
   phbern-revealjs:
     css: styles.css
+    min-scale: 0.05
+    view: slide
+    scroll-view:
+      activation-width: 0
 bibliography:
   - _extensions/PHBern-RConrardy/phbern/library.bib
   - library.bib
