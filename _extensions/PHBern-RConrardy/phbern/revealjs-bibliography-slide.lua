@@ -84,6 +84,12 @@ end
 
 function Header(header)
   local has_background = add_semantic_background(header)
+  local color = has_class(header, "science") and "#9ebecc"
+    or has_class(header, "uebung") and "#cdcc99"
+  if color and not header.attributes["data-background-color"] then
+    header.attributes["data-background-color"] = color
+    has_background = true
+  end
   local padlet_url = header.attributes["data-padlet-url"]
   local paper_link = header.attributes["data-paper-link"]
 
