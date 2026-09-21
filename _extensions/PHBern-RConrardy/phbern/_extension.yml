@@ -2,11 +2,11 @@ title: PHBern Quarto Formats
 author: Richard Conrardy / PHBern
 version: 0.2.0
 quarto-required: ">=1.4.11"
-csl: assets/apa.csl
 contributes:
   formats:
     common:
       lang: de-CH
+      csl: assets/apa.csl
       author: Richard Conrardy
       institut: Sekundarstufe II
       bibliography: library.bib

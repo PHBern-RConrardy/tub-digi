@@ -18,32 +18,42 @@
     header-ascent: 0pt,
     footer-descent: 0%,
     footer: none,
+    background: [
+      #place(top + right, dx: -19mm, dy: -1mm)[
+        #image("$logo.path$", width: 70mm)
+      ]
+    ],
 
-    header: [
+    header: context {
+  let show-institute = counter(page).get().first() == 1
+  [
   #block(width: 100%, height: 12mm)[
+    #grid(
+      columns: (1fr, 70mm),
+      column-gutter: 0pt,
+      align: (left, right),
+      [
+        #if show-institute [
+          #set text(font: "Liberation Sans", size: 8pt)
 
-    #place(top + left)[
-      #set text(font: "Liberation Sans", size: 8pt)
+          #stack(
+            dir: ttb,
+            spacing: 2.5pt,
+            [#text(weight: "bold")[Institut #institut]],
+            [Fabrikstrasse 8, CH-3012 Bern],
+            [#str("T +41 31 309 21 15, contactdesk@phbern.ch, www.phbern.ch")],
+          )
+        ]
+      ],
+      [],
+    )
 
-      #stack(
-        dir: ttb,
-        spacing: 2.5pt,
-        [#text(weight: "bold")[Institut #institut]],
-        [Fabrikstrasse 8, CH-3012 Bern],
-        [#str("T +41 31 309 21 15, contactdesk@phbern.ch, www.phbern.ch")],
-      )
-    ]
-
-    #place(top + right, dy: -10pt)[
-      #image("$logo.path$", width: 70mm)
-    ]
-
-    #place(bottom + left)[
-      #rect(width: 100%, height: 2pt, fill: black, stroke: none)
-      #v(8pt)
-    ]
+    #v(2pt)
+    #rect(width: 100%, height: 2pt, fill: black, stroke: none)
+    #v(8pt)
   ]
-],
+]
+},
   )
 
   show link: set text(fill: rgb("#ad0101"))
