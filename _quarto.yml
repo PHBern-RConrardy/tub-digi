@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - _routes.json
+    - _extensions/PHBern-RConrardy/phbern/cloudflare/allowed-ip-ranges.csv
     - resources_free/**
     - resources_non_free/**
 
