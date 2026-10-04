@@ -15,6 +15,11 @@ $endif$
 $if(institut)$
   institut: "$institut$",
 $endif$
+$if(section-numbering)$
+  numberSections: true,
+$else$
+  numberSections: false,
+$endif$
 $if(toc)$
   toc: $toc$,
 $endif$

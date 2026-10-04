@@ -3,6 +3,7 @@
   subtitle: none,
   author: none,
   institut: "Sekundarstufe II",
+  numberSections: true,
   toc: false,
   toc-title: none,
   toc-depth: 3,
@@ -116,7 +117,7 @@ if toc {
   // 1      Heading 1
   // 1.1    Heading 2
   // 1.1.1  Heading 3 and deeper levels
-  set heading(numbering: "1.1")
+  set heading(numbering: if numberSections { "1.1" } else { none })
 
   let numbered-heading(size: 10pt, above: 10pt, below: 6pt, number-width: 17mm) = it => {
     if it.numbering == none {
